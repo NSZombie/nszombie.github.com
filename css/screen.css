@@ -152,12 +152,18 @@ ul.posts {
 
 }
 
-  /* standard */
+  /* standard */ 
 
   #post pre {
     border: 1px solid #ddd;
     background-color: #eef;
-    padding: 0 .4em;
+    color: rgb(0, 27, 76);
+    white-space:pre;
+    overflow:auto;
+    word-wrap:normal;
+    font-size:75%;
+    padding:8px;
+    font-family:Monaco, monospace;
   }
 
   #post ul,
@@ -166,10 +172,8 @@ ul.posts {
   }
 
   #post code {
-    border: 1px solid #ddd;
     background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
+    padding: 0 .1em;
   }
 
     #post pre code {
