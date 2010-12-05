@@ -11,7 +11,7 @@ I wanted to try to bring a similar system to iOS, but instead of restricting it 
 
 The results of that experiment can be seen [here](https://github.com/jweinberg/JWLayoutViews/)
 
-In this post I will try to explain how to use it, as well as some explanation about how it works.
+In this post I will try to explain how to use it.
 
 ## Using JWConstraintLayoutView
 
@@ -70,11 +70,11 @@ The end result will look something like this
 
 As you can see the top view (viewA) is centered in the screen, and viewB is positioned below it exactly as described in the constraints above. This gives us some very powerful options, as these will get reapplied when either the parent or any sibling view changes size. Meaning that when the device is rotated the constraints are still valid and allows for the creation of some very fluid layouts.
 
-A compilable and much more complicated example can be found [here.](https://github.com/jweinberg/JWLayoutViews/blob/master/Classes/ConstraintLayoutTestViewController.m)
+A full and much more complicated example can be found [here.](https://github.com/jweinberg/JWLayoutViews/blob/master/Classes/ConstraintLayoutTestViewController.m)
 
 This example is a direct translation of Apple's [CAConstraintLayoutManger example](http://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreAnimation_guide/Articles/Layout.html#//apple_ref/doc/uid/TP40006084-SW5). Other than the obvious API differences, the only real change is modifying which constraints are set on viewB, as CoreAnimation and UIKit have flipped coordinate spaces.
 
-The provided API is boils down to JWConstraint, these objects are constructed and added to the layout view.
+The provided API is boils down to JWConstraint, these objects are constructed and added to the layout view as illustrated in the previous sample.
 
 {% highlight objc %}
 - (id)initWithView:(UIView*)aView

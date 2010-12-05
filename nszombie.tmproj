@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_layouts/default.html</string>
+	<string>_posts/2010-12-2-ConstraintBasedLayout.markdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -58,7 +58,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>114</integer>
 	<key>metaData</key>
 	<dict>
 		<key>README</key>
@@ -94,14 +94,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>23</integer>
+			<integer>0</integer>
 		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
@@ -117,19 +117,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_posts/2010-12-1-test.textile</key>
+		<key>_posts/2010-12-2-ConstraintBasedLayout.markdown</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>6</integer>
+				<integer>78</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>19</integer>
 		</dict>
 		<key>index.html</key>
 		<dict>
@@ -152,12 +152,12 @@
 		<string>_config.yml</string>
 		<string>index.html</string>
 		<string>_layouts/default.html</string>
-		<string>_posts/2010-12-1-test.textile</string>
+		<string>_posts/2010-12-2-ConstraintBasedLayout.markdown</string>
 		<string>_layouts/post.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{588, 284}, {691, 440}}</string>
+	<string>{{184, 0}, {1182, 746}}</string>
 </dict>
 </plist>
