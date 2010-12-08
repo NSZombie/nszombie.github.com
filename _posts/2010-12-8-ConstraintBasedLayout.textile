@@ -5,13 +5,9 @@ title: Constraint Based Layout for iOS
 
 h1. {{ page.title }}
 
-CoreAnimation on the desktop has had the concept of layout managers since its introduction in 10.5, but iOS missed out on this great feature; instead having to resort to absolute positioning. 
+Constraint based layout means just what it sounds like. Providing a list of constraints to how different views should be arranged, and then letting the system solve it. This sounds similar in practice to the 'springs and struts' system that any iOS developer should already be familiar with, with at least one major difference. You can apply constraints to sibling views, not only the superview. This small different opens up a entirely new world of what is possible in setting up the layout of views. The API I have put together is heavily based on @CAConstraintLayoutManager@ and should be very quick to jump into if you have used that class before.
 
-I wanted to try to bring a similar system to iOS, but instead of restricting it to CALayers, allowing it to be used with any UIView.
-
-The results of that experiment can be seen  "here":https://github.com/jweinberg/JWLayoutViews/
-
-In this post I will try to explain how to use it.
+The code for the layout system can be found "here":https://github.com/jweinberg/JWLayoutViews/
 
 h2. Using JWConstraintLayoutView
 
@@ -67,17 +63,17 @@ viewB.backgroundColor = [UIColor greenColor];
 [layoutView addSubview:viewB];
 {% endhighlight %}
 
-The end result will look something like this   
-!/images/constraints-1.png(Constraints)!
-
-As you can see the top view (viewA) is centered in the screen, and viewB is positioned below it exactly as described in the constraints above. This gives us some very powerful options, as these will get reapplied when either the parent or any sibling view changes size. Meaning that when the device is rotated the constraints are still valid and allows for the creation of some very fluid layouts.
-
-A compilable and much more complicated example can be found "here.":https://github.com/jweinberg/JWLayoutViews/blob/master/Classes/ConstraintLayoutTestViewController.m
+After layout you will see something similar to this
+<center>!/images/constraints-1.png(Constraints)!</center>
 
 This example is a direct translation of Apple's "CAConstraintLayoutManger example":http://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreAnimation_guide/Articles/Layout.html#//apple_ref/doc/uid/TP40006084-SW5. Other than the obvious API differences, the only real change is modifying which constraints are set on viewB, as CoreAnimation and UIKit have flipped coordinate spaces.
 
-The provided API is boils down to JWConstraint, these objects are constructed and added to the layout view as illustrated in the previous sample.
+There are three classes related to the constraints system. 
 
+# *JWConstraintGraphNode*
+This is a internal class used by the constraint solving system. You should never have to create one of these manually, or really care about them. I only bring it up here so that you are aware of its existence.
+# *JWConstraint*
+@JWConstraint@ allows you to describe your constraints, here is its designated initializer.
 {% highlight objc %}
 - (id)initWithView:(UIView*)aView
          attribute:(JWConstraintAttribute)anAttribute 
@@ -86,5 +82,16 @@ The provided API is boils down to JWConstraint, these objects are constructed an
              scale:(CGFloat)aScale 
             offset:(CGFloat)aOffset;
 {% endhighlight %}
+#* *aView* is the view on which you are applying the constraint.
+#* *anAttribute* is the attribute on the view which will be calculated. You can only constrain up to two attributes per axis, per view. Meaning only MinX and Width, or MaxX and MidX, but MinX, MidX and Width all together.
+#* *aRelativeView* is the view which you want to base the calculation on. A value of @nil@ here means that the calculation is based on the superview.
+#* *aRelativeAttribute* is the attribute to base the previous attribute on. Any attribute here is valid, even if it is not on the same axis as the input attribute.
+#* *aScale* and *aOffset* are applied to the result as @result = (result * scale) + offset@. They default to 1.0 and 0 respectively when using initializers that don't expose them.
+# *JWConstraintLayoutView*
+@JWConstraintLayoutView@ is the workhorse of the three. Internally it will manage all the constraints and perform the actual constraints calculations. Recalculation of the constraints graph, the most expensive part of this, only occurs when new constraints are added. Other than that you should treat this as any other view, and expect it to relayout its subviews based on its constraints. Any unconstrained view will be laid out according to its standard behavior using its @autoresizeMask@. The layout view should be placed as the superview to any views that you want it to manage, contrary to how @CAConstraintLayoutManager@ works.
+
+A compilable and much more complicated example can be found "here.":https://github.com/jweinberg/JWLayoutViews/blob/master/Classes/ConstraintLayoutTestViewController.m
+
+
 
 
