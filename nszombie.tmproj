@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_layouts/default.html</string>
+	<string>css/highlight.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>_config.yml</string>
 			<key>lastUsed</key>
-			<date>2010-12-02T01:25:51Z</date>
+			<date>2010-12-08T16:37:19Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -35,8 +35,12 @@
 		<dict>
 			<key>filename</key>
 			<string>atom.xml</string>
+			<key>lastUsed</key>
+			<date>2010-12-08T16:37:20Z</date>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>css</string>
 			<key>regexFolderFilter</key>
@@ -48,80 +52,34 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2010-12-02T01:26:06Z</date>
+			<date>2010-12-08T16:37:19Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README</string>
 			<key>lastUsed</key>
-			<date>2010-12-02T01:18:55Z</date>
+			<date>2010-12-08T16:37:20Z</date>
+		</dict>
+		<dict>
+			<key>expanded</key>
+			<true/>
+			<key>name</key>
+			<string>js</string>
+			<key>regexFolderFilter</key>
+			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>sourceDirectory</key>
+			<string>js</string>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>README</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_config.yml</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>37</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_layouts/default.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>9</integer>
-				<key>line</key>
-				<integer>30</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>23</integer>
-		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_posts/2010-12-1-test.textile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
 				<integer>6</integer>
@@ -131,33 +89,44 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>index.html</key>
+		<key>css/highlight.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>28</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>css/screen.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>116</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>99</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>README</string>
-		<string>_config.yml</string>
-		<string>index.html</string>
-		<string>_layouts/default.html</string>
-		<string>_posts/2010-12-1-test.textile</string>
+		<string>css/highlight.css</string>
+		<string>css/screen.css</string>
 		<string>_layouts/post.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{588, 284}, {691, 440}}</string>
+	<string>{{1148, 180}, {747, 878}}</string>
 </dict>
 </plist>
