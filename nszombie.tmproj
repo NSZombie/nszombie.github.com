@@ -3,18 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-<<<<<<< HEAD
-	<string>css/highlight.css</string>
-=======
-	<string>_posts/2010-12-2-ConstraintBasedLayout.markdown</string>
->>>>>>> 6e7321ccab1059c0cae834455d659a4d9651fdc7
+	<string>_config.yml</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>_config.yml</string>
 			<key>lastUsed</key>
-			<date>2010-12-08T16:37:19Z</date>
+			<date>2010-12-08T22:38:51Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -76,25 +74,9 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>114</integer>
+	<integer>211</integer>
 	<key>metaData</key>
 	<dict>
-		<key>_layouts/post.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-<<<<<<< HEAD
-=======
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>_config.yml</key>
 		<dict>
 			<key>caret</key>
@@ -109,91 +91,44 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_layouts/default.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>15</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>_layouts/post.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
->>>>>>> 6e7321ccab1059c0cae834455d659a4d9651fdc7
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-<<<<<<< HEAD
-		<key>css/highlight.css</key>
-=======
-		<key>_posts/2010-12-2-ConstraintBasedLayout.markdown</key>
->>>>>>> 6e7321ccab1059c0cae834455d659a4d9651fdc7
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-<<<<<<< HEAD
-				<integer>28</integer>
-=======
-				<integer>78</integer>
->>>>>>> 6e7321ccab1059c0cae834455d659a4d9651fdc7
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>19</integer>
-		</dict>
-		<key>css/screen.css</key>
+		<key>_posts/2010-12-8-ConstraintBasedLayout.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>116</integer>
+				<integer>94</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>99</integer>
+			<integer>65</integer>
+		</dict>
+		<key>css/highlight.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-<<<<<<< HEAD
 		<string>css/highlight.css</string>
-		<string>css/screen.css</string>
-=======
-		<string>README</string>
+		<string>_posts/2010-12-8-ConstraintBasedLayout.textile</string>
 		<string>_config.yml</string>
-		<string>index.html</string>
-		<string>_layouts/default.html</string>
-		<string>_posts/2010-12-2-ConstraintBasedLayout.markdown</string>
->>>>>>> 6e7321ccab1059c0cae834455d659a4d9651fdc7
-		<string>_layouts/post.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-<<<<<<< HEAD
-	<string>{{1148, 180}, {747, 878}}</string>
-=======
-	<string>{{184, 0}, {1182, 746}}</string>
->>>>>>> 6e7321ccab1059c0cae834455d659a4d9651fdc7
+	<string>{{375, 136}, {747, 878}}</string>
 </dict>
 </plist>
