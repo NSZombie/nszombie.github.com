@@ -2,13 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
+=======
+	<key>currentDocument</key>
+	<string>_config.yml</string>
+>>>>>>> 308dab72784b7e70ddd5084de607d44b909ae833
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>_config.yml</string>
 			<key>lastUsed</key>
+<<<<<<< HEAD
 			<date>2010-12-09T07:32:13Z</date>
+=======
+			<date>2010-12-08T22:38:51Z</date>
+			<key>selected</key>
+			<true/>
+>>>>>>> 308dab72784b7e70ddd5084de607d44b909ae833
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -56,12 +67,69 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>114</integer>
+	<integer>211</integer>
 	<key>metaData</key>
+<<<<<<< HEAD
 	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
 	<string>{{184, 0}, {1182, 746}}</string>
+=======
+	<dict>
+		<key>_config.yml</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>37</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2010-12-8-ConstraintBasedLayout.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>94</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>65</integer>
+		</dict>
+		<key>css/highlight.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>css/highlight.css</string>
+		<string>_posts/2010-12-8-ConstraintBasedLayout.textile</string>
+		<string>_config.yml</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{375, 136}, {747, 878}}</string>
+>>>>>>> 308dab72784b7e70ddd5084de607d44b909ae833
 </dict>
 </plist>
