@@ -11,10 +11,6 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
@@ -125,8 +121,14 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin-left: 2em;
+      margin-right: 2em;
+      width: 42%;
     }
+
+      .site .footer .contact ul {
+          margin-left: 2em;
+      }
 
       .site .footer .contact a {
         color: #8085C1;

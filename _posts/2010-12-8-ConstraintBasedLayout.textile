@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Constraint Based Layout for iOS
+author: Josh Weinberg
 ---
-
-h1. "{{ page.title }}":{{ page.url }}
 
 Constraint based layout means just what it sounds like. Providing a list of constraints to how different views should be arranged, and then letting the system solve it. This sounds similar in practice to the 'springs and struts' system that any iOS developer should already be familiar with, with at least one major difference. You can apply constraints to sibling views, not only the superview. This small difference opens up a entirely new world of what is possible in setting up the layout of views. The API I have put together is heavily based on @CAConstraintLayoutManager@ and should be very quick to jump into if you have used that class before.
 
