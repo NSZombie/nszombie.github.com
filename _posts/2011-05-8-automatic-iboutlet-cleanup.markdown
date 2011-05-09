@@ -102,7 +102,7 @@ the common case. In the next section we'll finally see a solution that
 solves the problem completely under manual memory management.
 
 
-## An Automagic Approach to Releasing Outlets
+## An Automagic Approach
 
 What we want is a solution that will not require us to manually release
 or set to nil IBOutlet properties in `-dealloc` and `-viewDidUnload`.
